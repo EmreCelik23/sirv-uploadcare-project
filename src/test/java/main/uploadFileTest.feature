@@ -30,7 +30,7 @@ Feature: This feature includes tests for uploading image files to Sirv and Uploa
 
   Scenario: Getting a file
     Given url 'https://upload.uploadcare.com/info/'
-    And param file_id = 'e32192a2-aacc-4e63-9ccd-c9708238b021'
+    And param file_id = '2e721e98-0a43-435f-8c8d-5e759c23cc29'
     And param pub_key = pubKeyUploadCare
     When method GET
     Then status 200
